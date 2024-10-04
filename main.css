@@ -1,0 +1,61 @@
+body {
+    font-family: Afacad Flux, sans-serif;
+}
+
+.navbar {
+    background-color: #850808;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #850808;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-musicas .nav-link.active:hover {
+    color: #fff;
+}
+
+.section-title {
+    font-family: Protest Strike, sans-serif;
+}
+
+.text-colored {
+    color: #850808;
+}
+
+.navbar-toggler {
+    background-color: rgba(255, 234, 230, 0.74);
+}
+
+#sobre-a-banda,
+#musicas {
+    background-color: rgba(255, 234, 230, 0.74);
+}
+
+.nav-musicas .nav-link.active,
+#fale-conosco button {
+    background-color: #850808;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #850808;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
